@@ -1,3 +1,3 @@
-print("hello, spring's semester!")
-print("bruh")
-print("bruhbruh")
+print("Hello, World!")
+
+# task was for just printing
