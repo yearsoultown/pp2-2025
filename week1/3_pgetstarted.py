@@ -1,0 +1,1 @@
+print("Python Install Many PCs and Macs will have python already installed. To check if you h")
