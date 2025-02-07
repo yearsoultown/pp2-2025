@@ -1,3 +1,4 @@
+#Tasks are below(scroll please)
 #Create a class named MyClass, with a property named x:
 
 class MyClass:
