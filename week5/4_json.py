@@ -1,6 +1,6 @@
 import json
 
-with open("simple-data.json", "r", encoding="utf-8-sig") as f:
+with open("sample-data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 interfaces = []
