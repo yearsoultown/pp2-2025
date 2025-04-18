@@ -4,7 +4,7 @@ import pygame as pg
 pg.init()
 
 screen = pg.display.set_mode((800, 800))
-pg.display.set_caption("Часики Микки")
+pg.display.set_caption("Mickey Mouse Clockkkkkkkk")
 
 
 clock_face = pg.image.load("images/mickey.png") 

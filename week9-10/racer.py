@@ -47,6 +47,7 @@ class Player(Car):
             self.rect.x -= 10
         if keys[pygame.K_RIGHT] and self.rect.right < WIDTH - 50:
             self.rect.x += 10
+        
 
 class Enemy(Car):
     def update(self):
