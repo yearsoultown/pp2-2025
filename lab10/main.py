@@ -20,7 +20,7 @@ try:
         print(f"Select version: {cursor.fetchone()}")
 
     #create new table
-    '''with connection.cursor() as cursor:
+    with connection.cursor() as cursor:
         cursor.execute(
             """CREATE TABLE users(
             id serial PRIMARY KEY,
@@ -28,7 +28,7 @@ try:
             phone_number NUMERIC(11) NOT NULL);"""
         )
         print("[INFO] Table was succesfully created")
-    '''
+    
     
     #insert data into table
     with connection.cursor() as cursor:
@@ -78,11 +78,11 @@ try:
     
 
     #delete whole table
-    with connection.cursor() as cursor:
+    '''with connection.cursor() as cursor:
         cursor.execute(
             """DROP TABLE users"""
         )
-        print("[INFO] Table was succesfully deleted")
+        print("[INFO] Table was succesfully deleted")'''
     
 
 except Exception as _ex:
